@@ -8,7 +8,12 @@ class Home extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.red,
       appBar: AppBar(),
-      body: Column(),
+      body: Column(
+        children:[
+          Text("topu"),
+          Text("Chironjit"),
+        ]
+      ),
     );
   }
 }
