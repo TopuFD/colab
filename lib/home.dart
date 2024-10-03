@@ -10,7 +10,8 @@ class Home extends StatelessWidget {
       appBar: AppBar(),
       body: Column(
         children:[
-          Text("topu")
+          Text("topu"),
+          Text("Chironjit"),
         ]
       ),
     );
