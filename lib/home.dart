@@ -10,6 +10,7 @@ class Home extends StatelessWidget {
       body: Column(
         children:[
           Text("topu")
+          ,Text("This is my name")
         ]
       ),
     );
