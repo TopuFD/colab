@@ -6,10 +6,12 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.red,
       appBar: AppBar(),
       body: Column(
         children:[
-          Text("topu")
+          Text("topu"),
+          Text("Chironjit"),
         ]
       ),
     );
